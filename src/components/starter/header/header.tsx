@@ -5,7 +5,6 @@ export default component$(() => {
   return (
     <header>
       <NavBar></NavBar>
-      <Navigation></Navigation>
     </header>
   );
 });

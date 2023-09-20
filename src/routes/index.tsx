@@ -7,7 +7,7 @@ import { SimpleCard } from "~/components/SimpleCard/simpleCard";
 export default component$(() => {
   return (
     <>
-      <section>
+      <section class="bg-tp-veryLigthGray">
         <img
           src="./images/image-mockups.png "
           alt="multiple phones logged into easybank"
@@ -21,7 +21,7 @@ export default component$(() => {
         <Button text="Request Invite"></Button>
       </section>
 
-      <section>
+      <section class="tp-lightGray">
         <h2>Why choose Easybank?</h2>
         <p>
           We leverage Open Banking to turn your bank account into your financial

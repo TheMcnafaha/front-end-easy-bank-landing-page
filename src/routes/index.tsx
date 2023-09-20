@@ -2,6 +2,7 @@ import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { Button } from "~/components/Button/button";
 import { Card } from "~/components/Card/card";
+import { Footer } from "~/components/Footer/footer";
 import { SimpleCard } from "~/components/SimpleCard/simpleCard";
 export default component$(() => {
   return (

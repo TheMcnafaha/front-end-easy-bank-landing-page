@@ -42,5 +42,8 @@ lerna-debug.log*
 
 
 # zip file from frontend
-
 easybank-landing-page-master.zip
+
+# ingore bun lock file
+bun.lockb
+

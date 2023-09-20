@@ -1,10 +1,22 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import { Intro } from "~/components/Intro/intro";
+import { Button } from "~/components/Button/button";
 export default component$(() => {
   return (
     <>
-      <Intro></Intro>
+      <section>
+        <img
+          src="./image-mockups.png "
+          alt="multiple phones logged into easybank"
+        />
+        <h2>Next generation digital banking</h2>
+        <p>
+          Take your financial life online. Your Easybank account will be a
+          one-stop-shop for spending, saving, budgeting, investing, and much
+          more.
+        </p>
+        <Button text="Request Invite"></Button>
+      </section>
     </>
   );
 });

@@ -7,7 +7,7 @@ export interface CardProps {
   image_alt: string;
 }
 
-export const Card = component$<CardProps>(
+export const SimpleCard = component$<CardProps>(
   ({ image_link, image_alt, title, description }) => {
     return (
       <div>

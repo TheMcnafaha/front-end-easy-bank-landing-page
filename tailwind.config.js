@@ -1,8 +1,20 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
+  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        // primary template (tp) colors
+        "tp-darkBlue": " hsl(233, 26%, 24%)",
+        "tp-limeGreen": " hsl(136, 65%, 51%)",
+        "tp-brightCyan": "hsl(192, 70%, 51%)",
+        // neutral template (tp) colors
+        "tp-grayishBlue": "hsl(233, 8%, 62%)",
+        "tp-lightGrayish": "hsl(220, 16%, 96%)",
+        "tp-veryLightGray": "hsl(0, 0%, 98%) ",
+        "tp-white": "hsl(0, 0%, 100%)",
+      },
+    },
   },
   plugins: [],
 };

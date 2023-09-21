@@ -72,7 +72,7 @@ export const NavBar = component$<NavbarProps>(() => {
         </nav>
         <div class="bg-[url('/images/bg-intro-mobile.svg')] row-start-2 row-end-[-1] bg-no-repeat bg-center bg-cover h-fit -z-20">
           <img
-            class="object-contain  -z-10 w-full h-full"
+            class="object-contain  -z-10 w-full h-full relative top-[-16vw]"
             src="./images/image-mockups.png "
             alt="multiple phones logged into easybank"
           />

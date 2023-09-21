@@ -18,6 +18,9 @@ module.exports = {
         "tp-veryLightGray": "hsl(0, 0%, 98%) ",
         "tp-white": "hsl(0, 0%, 100%)",
       },
+      backgroundImage: {
+        "phone-pattern": "url(/images/image-mockups.png)",
+      },
     },
   },
   plugins: [

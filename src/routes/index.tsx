@@ -2,17 +2,12 @@ import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { Button } from "~/components/Button/button";
 import { Card } from "~/components/Card/card";
-import { Footer } from "~/components/Footer/footer";
 import { SimpleCard } from "~/components/SimpleCard/simpleCard";
 export default component$(() => {
   return (
     <>
-      <section class="bg-tp-veryLigthGray">
-        <img
-          src="./images/image-mockups.png "
-          alt="multiple phones logged into easybank"
-        />
-        <h2>Next generation digital banking</h2>
+      <section class="bg-tp-veryLigthGray text-center max-w-xs">
+        <h2 class="text-3xl">Next generation digital banking</h2>
         <p>
           Take your financial life online. Your Easybank account will be a
           one-stop-shop for spending, saving, budgeting, investing, and much

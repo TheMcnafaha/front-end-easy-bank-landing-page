@@ -47,3 +47,5 @@ easybank-landing-page-master.zip
 # ingore bun lock file
 bun.lockb
 
+# Vercel
+.vercel

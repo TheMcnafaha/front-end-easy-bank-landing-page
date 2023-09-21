@@ -2,7 +2,7 @@ import { component$ } from "@builder.io/qwik";
 
 export interface NavigationProps {}
 
-export const Navigation = component$<NavigationProps>((props) => {
+export const Navigation = component$<NavigationProps>(() => {
   return (
     <ul>
       <li>Home</li>

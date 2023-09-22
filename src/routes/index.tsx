@@ -6,9 +6,11 @@ import { SimpleCard } from "~/components/SimpleCard/simpleCard";
 export default component$(() => {
   return (
     <>
-      <section class="bg-tp-veryLigthGray text-center max-w-xs">
-        <h2 class="text-3xl">Next generation digital banking</h2>
-        <p>
+      <section class="bg-tp-veryLigthGray text-center max-w-xs mb-16">
+        <h2 class="text-3xl text-tp-darkBlue pb-4">
+          Next generation digital banking
+        </h2>
+        <p class=" text-tp-grayishBlue pb-2">
           Take your financial life online. Your Easybank account will be a
           one-stop-shop for spending, saving, budgeting, investing, and much
           more.

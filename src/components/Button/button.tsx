@@ -5,5 +5,12 @@ export interface ButtonProps {
 }
 
 export const Button = component$<ButtonProps>(({ text }) => {
-  return <button type="button">{text}</button>;
+  return (
+    <button
+      class="bg-gradient-to-r px-5 py-2 rounded-2xl text-white  text-xs from-tp-limeGreen to-tp-brightCyan"
+      type="button"
+    >
+      {text}
+    </button>
+  );
 });

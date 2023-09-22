@@ -5,8 +5,8 @@ export interface NavbarProps {}
 export const NavBar = component$<NavbarProps>(() => {
   return (
     <>
-      <div class="grid grid-rows-6 grid-cols-1 ">
-        <nav class="bg-white  border-gray-200 dark:bg-gray-900 row-start-1 ">
+      <div class="grid grid-rows-1 grid-cols-1 ">
+        <nav class="bg-white  border-gray-200 dark:bg-gray-900 row-start-1 row-end-2 ">
           <div class="max-w-screen-xl flex flex-wrap items-center  justify-between mx-auto p-4">
             <a href="https://flowbite.com/" class="flex items-center">
               <img src="./logo.svg " alt="easybank logo" />
@@ -23,7 +23,7 @@ export const NavBar = component$<NavbarProps>(() => {
             </button>
             <div class="hidden w-full md:block md:w-auto " id="navbar-default">
               <div class="flex justify-center ">
-                <ul class="font-medium flex w-80 min-w-max flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg text-center bg-tp-white md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 max-w-xs">
+                <ul class="font-medium relative flex w-80 min-w-max flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg text-center bg-tp-white md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 max-w-xs">
                   <li>
                     <a
                       href="#"

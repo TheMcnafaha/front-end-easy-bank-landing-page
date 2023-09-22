@@ -2,13 +2,27 @@ import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 import { Button } from "~/components/Button/button";
 import { Card } from "~/components/Card/card";
-import { Intro } from "~/components/Intro/intro";
 import { SimpleCard } from "~/components/SimpleCard/simpleCard";
 export default component$(() => {
   return (
     <>
-      <Intro></Intro>
-      <div class=" bg-tp-lightGrayish  ">
+      {/*  intro section */}
+      <section class="bg-tp-veryLigthGray flex flex-col justify-center text-center  mb-16">
+        <div class="my-0 mx-[auto] max-w-xs ">
+          <h2 class="text-3xl text-tp-darkBlue  pb-4">
+            Next generation digital banking
+          </h2>
+          <p class=" text-tp-grayishBlue pb-2">
+            Take your financial life online. Your Easybank account will be a
+            one-stop-shop for spending, saving, budgeting, investing, and much
+            more.
+          </p>
+          <Button text="Request Invite"></Button>
+        </div>
+      </section>
+
+      {/*  why us section */}
+      <div class=" bg-tp-lightGrayish  my-0 mx-[auto]  ">
         <section class=" text-center">
           <h2 class="text-3xl text-tp-darkBlue py-4 max-w-xs">
             Why choose Easybank?
@@ -19,7 +33,6 @@ export default component$(() => {
           </p>
 
           <section>
-            <Intro></Intro>
             <ul>
               <li>
                 <SimpleCard
@@ -61,7 +74,8 @@ export default component$(() => {
           </section>
         </section>
 
-        <section>
+        {/*  media section */}
+        <section class=" my-0 mx-[auto] max-w-xs">
           <h3>Latest Articles</h3>
 
           <Card

@@ -10,10 +10,10 @@ export interface CardProps {
 export const SimpleCard = component$<CardProps>(
   ({ image_link, image_alt, title, description }) => {
     return (
-      <div>
-        <img src={image_link} alt={image_alt} />
-        <h3>{title}</h3>
-        <p>{description}</p>
+      <div class=" flex flex-col items-center py-6">
+        <img src={image_link} alt={image_alt} class=" mb-3" />
+        <h3 class="text-xl mb-4">{title}</h3>
+        <p class=" text-tp-grayishBlue">{description}</p>
       </div>
     );
   },

@@ -22,16 +22,17 @@ export default component$(() => {
       </section>
 
       {/*  why us section */}
-      <div class=" bg-tp-lightGrayish  my-0 mx-[auto]  ">
-        <section class=" text-center">
-          <h2 class="text-3xl text-tp-darkBlue py-4 max-w-xs">
-            Why choose Easybank?
-          </h2>
-          <p>
-            We leverage Open Banking to turn your bank account into your
-            financial hub. Control your finances like never before.
-          </p>
-
+      <div class=" bg-tp-lightGrayish    grid grid-cols-1 justify-items-center pt-8">
+        <section class=" text-center max-w-xs ">
+          <div class="pb-6">
+            <h2 class="text-3xl text-tp-darkBlue py-4 ">
+              Why choose Easybank?
+            </h2>
+            <p>
+              We leverage Open Banking to turn your bank account into your
+              financial hub. Control your finances like never before.
+            </p>
+          </div>
           <section>
             <ul>
               <li>
@@ -73,44 +74,43 @@ export default component$(() => {
             </ul>
           </section>
         </section>
-
-        {/*  media section */}
-        <section class=" my-0 mx-[auto] max-w-xs">
-          <h3>Latest Articles</h3>
-
-          <Card
-            title="Recieve mony in any curency with no fees"
-            author="Claire Robinson"
-            intro_text=" The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single … "
-            img_link="./images/image-currency.jpg"
-            img_alt="multiple and different dollars spread around"
-          ></Card>
-
-          <Card
-            title="Treat yourself without worrying about money"
-            author="Wilson Hutton"
-            intro_text=" Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you … "
-            img_link="./images/image-plane.jpg"
-            img_alt="airplane wing amid cluods on a sunny day"
-          ></Card>
-
-          <Card
-            title="Take your Easybank card wherever you go"
-            author="Wilson Hutton"
-            intro_text=" We want you to enjoy your travels. This is why we don’t charge any fees on purchases while you’re abroad. We’ll even show you … "
-            img_link="./images/image-confetti.jpg"
-            img_alt="colorful confetti thrown against a blue wall"
-          ></Card>
-
-          <Card
-            title="Recieve mony in any curency with no fees"
-            author="Claire Robinson"
-            intro_text=" The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single … "
-            img_link="./images/image-currency.jpg"
-            img_alt="multiple and different dollars spread around"
-          ></Card>
-        </section>
       </div>
+      {/*  media section */}
+      <section class=" my-0 mx-[auto] max-w-xs">
+        <h3>Latest Articles</h3>
+
+        <Card
+          title="Recieve mony in any curency with no fees"
+          author="Claire Robinson"
+          intro_text=" The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single … "
+          img_link="./images/image-currency.jpg"
+          img_alt="multiple and different dollars spread around"
+        ></Card>
+
+        <Card
+          title="Treat yourself without worrying about money"
+          author="Wilson Hutton"
+          intro_text=" Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you … "
+          img_link="./images/image-plane.jpg"
+          img_alt="airplane wing amid cluods on a sunny day"
+        ></Card>
+
+        <Card
+          title="Take your Easybank card wherever you go"
+          author="Wilson Hutton"
+          intro_text=" We want you to enjoy your travels. This is why we don’t charge any fees on purchases while you’re abroad. We’ll even show you … "
+          img_link="./images/image-confetti.jpg"
+          img_alt="colorful confetti thrown against a blue wall"
+        ></Card>
+
+        <Card
+          title="Recieve mony in any curency with no fees"
+          author="Claire Robinson"
+          intro_text=" The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single … "
+          img_link="./images/image-currency.jpg"
+          img_alt="multiple and different dollars spread around"
+        ></Card>
+      </section>
     </>
   );
 });

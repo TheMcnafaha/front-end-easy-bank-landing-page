@@ -24,7 +24,7 @@ export default component$(() => {
   return (
     <>
       <Header />
-      <main class="flex-col flex items-center pb-[-10vw]">
+      <main class="flex-col flex items-center ">
         <Slot />
       </main>
       <Footer />

@@ -12,7 +12,7 @@ export default component$(() => {
           <h2 class="text-3xl text-tp-darkBlue  pb-4">
             Next generation digital banking
           </h2>
-          <p class=" text-tp-grayishBlue pb-2">
+          <p class=" text-tp-grayishBlue pb-2 text-sm">
             Take your financial life online. Your Easybank account will be a
             one-stop-shop for spending, saving, budgeting, investing, and much
             more.
@@ -28,7 +28,7 @@ export default component$(() => {
             <h2 class="text-3xl text-tp-darkBlue py-4 ">
               Why choose Easybank?
             </h2>
-            <p>
+            <p class="text-tp-grayishBlue text-sm">
               We leverage Open Banking to turn your bank account into your
               financial hub. Control your finances like never before.
             </p>

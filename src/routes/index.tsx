@@ -22,7 +22,7 @@ export default component$(() => {
       </section>
 
       {/*  why us section */}
-      <div class=" bg-tp-lightGrayish    grid grid-cols-1 justify-items-center pt-8">
+      <div class=" bg-tp-lightGrayish    grid grid-cols-1 justify-items-center py-8">
         <section class=" text-center max-w-xs ">
           <div class="pb-6">
             <h2 class="text-3xl text-tp-darkBlue py-4 ">
@@ -75,42 +75,46 @@ export default component$(() => {
           </section>
         </section>
       </div>
-      {/*  media section */}
-      <section class=" my-0 mx-[auto] max-w-xs">
-        <h3>Latest Articles</h3>
 
-        <Card
-          title="Recieve mony in any curency with no fees"
-          author="Claire Robinson"
-          intro_text=" The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single … "
-          img_link="./images/image-currency.jpg"
-          img_alt="multiple and different dollars spread around"
-        ></Card>
+      {/*  article section */}
 
-        <Card
-          title="Treat yourself without worrying about money"
-          author="Wilson Hutton"
-          intro_text=" Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you … "
-          img_link="./images/image-plane.jpg"
-          img_alt="airplane wing amid cluods on a sunny day"
-        ></Card>
+      <div class=" bg-tp-veryLightGray ">
+        <section class=" my-0 mx-[auto] max-w-xs py-8 text-center">
+          <h3 class="text-3xl pb-6 text-tp-darkBlue">Latest Articles</h3>
 
-        <Card
-          title="Take your Easybank card wherever you go"
-          author="Wilson Hutton"
-          intro_text=" We want you to enjoy your travels. This is why we don’t charge any fees on purchases while you’re abroad. We’ll even show you … "
-          img_link="./images/image-confetti.jpg"
-          img_alt="colorful confetti thrown against a blue wall"
-        ></Card>
+          <Card
+            title="Recieve money in any curency with no fees"
+            author="Claire Robinson"
+            intro_text=" The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single … "
+            img_link="./images/image-currency.jpg"
+            img_alt="multiple and different dollars spread around"
+          ></Card>
 
-        <Card
-          title="Recieve mony in any curency with no fees"
-          author="Claire Robinson"
-          intro_text=" The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single … "
-          img_link="./images/image-currency.jpg"
-          img_alt="multiple and different dollars spread around"
-        ></Card>
-      </section>
+          <Card
+            title="Treat yourself without worrying about money"
+            author="Wilson Hutton"
+            intro_text=" Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you … "
+            img_link="./images/image-restaurant.jpg"
+            img_alt="airplane wing amid cluods on a sunny day"
+          ></Card>
+
+          <Card
+            title="Take your Easybank card wherever you go"
+            author="Wilson Hutton"
+            intro_text=" We want you to enjoy your travels. This is why we don’t charge any fees on purchases while you’re abroad. We’ll even show you … "
+            img_link="./images/image-plane.jpg"
+            img_alt="colorful confetti thrown against a blue wall"
+          ></Card>
+
+          <Card
+            title="Our invite-only Beta accounts are now live!"
+            author="Claire Robinson"
+            intro_text=" Our invite-only Beta accounts are now live! After a lot of hard work by the whole team, we’re excited to launch our closed beta. It’s easy to request an invite through the site ... "
+            img_link="./images/image-confetti.jpg"
+            img_alt="multiple and different dollars spread around"
+          ></Card>
+        </section>
+      </div>
     </>
   );
 });

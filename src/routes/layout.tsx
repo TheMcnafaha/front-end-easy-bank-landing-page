@@ -24,7 +24,7 @@ export default component$(() => {
   return (
     <>
       <Header />
-      <main class=" text-sm">
+      <main class=" text-sm font-normal font-tp-sans">
         <Slot />
       </main>
       <Footer />

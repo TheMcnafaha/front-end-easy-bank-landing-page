@@ -12,7 +12,7 @@ export const SimpleCard = component$<CardProps>(
     return (
       <div class=" flex flex-col items-center py-6">
         <img src={image_link} alt={image_alt} class=" mb-3" />
-        <h3 class="text-xl mb-4">{title}</h3>
+        <h3 class="text-xl text-tp-darkBlue mb-4">{title}</h3>
         <p class=" text-tp-grayishBlue">{description}</p>
       </div>
     );

@@ -8,8 +8,8 @@ export default component$(() => {
     <>
       {/*  intro section */}
       <section class="bg-tp-veryLigthGray flex flex-col justify-center text-center  mb-16">
-        <div class="my-0 mx-[auto] max-w-xs ">
-          <h2 class="text-3xl text-tp-darkBlue  pb-4">
+        <div class="my-0 mx-[auto] max-w-2xs ">
+          <h2 class="text-4xl text-tp-darkBlue  pb-3">
             Next generation digital banking
           </h2>
           <p class=" text-tp-grayishBlue pb-2 text-sm">
@@ -23,12 +23,12 @@ export default component$(() => {
 
       {/*  why us section */}
       <div class=" bg-tp-lightGrayish    grid grid-cols-1 justify-items-center py-8">
-        <section class=" text-center max-w-xs ">
+        <section class=" text-center max-w-2xs ">
           <div class="pb-6">
             <h2 class="text-3xl text-tp-darkBlue py-4 ">
               Why choose Easybank?
             </h2>
-            <p class="text-tp-grayishBlue text-sm">
+            <p class="text-tp-grayishBlue ">
               We leverage Open Banking to turn your bank account into your
               financial hub. Control your finances like never before.
             </p>

@@ -21,6 +21,12 @@ module.exports = {
       backgroundImage: {
         "phone-pattern": "url(/images/image-mockups.png)",
       },
+      fontFamily: {
+        "tp-sans": "Public Sans",
+      },
+      maxWidth: {
+        "2xs": "300px",
+      },
     },
   },
   plugins: [

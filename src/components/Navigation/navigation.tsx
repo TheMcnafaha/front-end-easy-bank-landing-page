@@ -1,10 +1,13 @@
 import { component$ } from "@builder.io/qwik";
 
-export interface NavigationProps {}
+export interface NavigationProps {
+  gap: string;
+}
 
-export const Navigation = component$<NavigationProps>(() => {
+export const Navigation = component$<NavigationProps>(({ gap = "0" }) => {
+  const classString = `flex flex-col gap-${gap}`;
   return (
-    <ul>
+    <ul class={classString}>
       <li>Home</li>
       <li>About</li>
       <li>Contact</li>
